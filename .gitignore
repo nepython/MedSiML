@@ -1,0 +1,19 @@
+# Environment files
+__pycache__
+.env
+.vscode
+.ipynb_checkpoints
+core
+
+# Unused files
+data_flattened.tsv
+MT5_large.ipynb
+predictions-10*.tsv
+
+# Do not commit very large files
+t5-base-checkpoints
+t5-base-super-checkpoints
+t5-base-UL-checkpoints
+t5-base-UL-super-checkpoints
+T5_base_UL_super.ipynb
+gemini_output

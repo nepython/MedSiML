@@ -1,0 +1,28 @@
+# Packages installed for processing
+pandas
+tqdm
+joblib
+markdown
+beautifulsoup4
+
+# Packages installed for fetching response from Gemini-Flash
+google-generativeai==0.6.0
+python-dotenv
+
+# Packages installed for model fine tuning and evaluation
+accelerate==0.31.0
+datasets==2.19.2
+transformers==4.41.2
+
+# Packages installed for model evaluation
+nltk==3.8.1
+textstat==0.7.3
+evaluate==0.4.2
+rouge_score==0.1.2
+sacrebleu==2.4.2
+sacremoses==0.1.1
+bert_score==0.3.13
+sentence_transformers==2.7.0
+
+# Select correct torch package based on your gpus
+# torch==2.3.1
