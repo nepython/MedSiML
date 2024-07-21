@@ -1,7 +1,7 @@
 # MedSiML: A Multilingual Approach for Simplifying Medical Texts
-Health literacy is crucial yet often hampered by complex medical terminology. Existing simplification approaches are limited by small, sentence-level, and monolingual datasets. To address this, we introduce **MedSiML**, a large-scale dataset designed to simplify and translate medical texts into the ten most spoken languages, improving global health literacy. This repository contains our 64k paragraph level medical text simplification dataset created from multiple sources using automated annotation process involving Gemini model and manual scrutiny. We also share our code for fine-tuning and evaluating the models. The model checkpoints being very large were not committed. They would be later made available on DropBox post publication and the link would be shared here.
+Health literacy is crucial yet often hampered by complex medical terminology. Existing simplification approaches are limited by small, sentence-level, and monolingual datasets. To address this, we introduce **MedSiML**, a large-scale dataset designed to simplify and translate medical texts into the ten most spoken languages, improving global health literacy. This repository contains a sample of our 64k paragraph level medical text simplification dataset created from multiple sources using automated annotation process involving Gemini model and manual scrutiny. We also share our code for fine-tuning and evaluating the models. The entire dataset and model checkpoints were very large to be committed. They would be made available on DropBox post publication and the link would be shared here.
 
-![MedSiML Logo](path_to_logo_image)
+![MedSiML snapshot](docs/dataset_snap.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -68,21 +68,24 @@ To use the MedSiML dataset and models, follow these steps:
 
 3. **Accessing the Dataset**
 
-   Using `datasets` library
+    * Download the `data.zip` file from DropBox.
+    * Move the `data.zip` into `data` directory.
+    * Unzip the `data.zip`.
+    * Then it can be loaded using `datasets` library
     ```python
     from datasets import load_dataset
     
     raw_datasets = load_dataset("csv", data_files='data/data.tsv', delimiter='\t')
     ```
 
-   Using `pandas` library
+    * (or) Using `pandas` library
     ```python
     import pandas as pd
     
     df = pd.read_csv('data/data.tsv', sep='\t')
     ```
 
-5. **Model Inference**
+4. **Model Inference**
 
    * Download the `checkpoints` from DropBox.
    * Move the `checkpoints` into `notebooks` directory.
