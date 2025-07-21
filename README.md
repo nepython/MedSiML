@@ -99,16 +99,22 @@ To use the MedSiML dataset and models, follow these steps:
 - Riyasatali Umatiya
 - Sajib Mistry
 - Aneesh Krishna
+- Amin Beheshti
 
 ## Citation
 
 If you use this dataset or model in your research, please cite our paper:
 ```
-@inproceedings{Jain2024MedSiML,
+@inproceedings{Jain2025MedSiML,
   title={MedSiML: A Multilingual Approach for Simplifying Medical Texts},
-  author={Hardik A. Jain, Chirayu Patel, Riyasatali Umatiya, Sajib Mistry, Aneesh Krishna},
-  booktitle={Proceedings of the Conference},
-  year={2024}
+  author={Hardik A. Jain, Chirayu Patel, Riyasatali Umatiya, Sajib Mistry, Aneesh Krishna, Amin Beheshti},
+  booktitle={Neural Information Processing},
+  year={2025},
+  publisher={Springer Nature Singapore},
+  address={Singapore},
+  pages={165-179},
+  isbn={978-981-96-6606-5},
+  doi={https://doi.org/10.1007/978-981-96-6606-5_12}
 }
 ```
 
