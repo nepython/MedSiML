@@ -68,9 +68,9 @@ To use the MedSiML dataset and models, follow these steps:
 
 3. **Accessing the Dataset**
 
-    * Download the `data.zip` file from [DropBox](https://www.dropbox.com/scl/fi/5kwbic3km6kv34xmktzoi/data.zip?rlkey=vjmca24bgjs837p3d7bpo4dr6&st=4fuk1zj6&dl=0).
-    * Move the `data.zip` into `data` directory.
-    * Unzip the `data.zip`.
+    * Download `data.zip` file from [DropBox](https://www.dropbox.com/scl/fi/5kwbic3km6kv34xmktzoi/data.zip?rlkey=vjmca24bgjs837p3d7bpo4dr6&st=4fuk1zj6&dl=0).
+    * Move `data.zip` into `data` directory.
+    * Unzip `data.zip`.
     * Then it can be loaded using `datasets` library
     ```python
     from datasets import load_dataset
@@ -87,9 +87,9 @@ To use the MedSiML dataset and models, follow these steps:
 
 4. **Model Inference**
 
-   * Download the `checkpoints` from DropBox.
-   * Move the `checkpoints` into `notebooks` directory.
-   * Unzip the `checkpoints`.
+   * Download `checkpoints.zip` from [Google Drive](https://drive.google.com/file/d/1P0WWvWVS7_zzTYJlpZTWU3NVe1Hz5z9J/view?usp=drivesdk).
+   * Move `checkpoints.zip` into `notebooks` directory.
+   * Unzip `checkpoints.zip`.
    * Open the notebook `T5_base.ipynb` and run cells in all sections skipping `Preprocessing`, `Finetuning`.
 
 ## Contributors
